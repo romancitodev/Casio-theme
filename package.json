@@ -1,0 +1,21 @@
+{
+  "name": "casio",
+  "displayName": "Casio Theme",
+  "description": "A theme for people what doesn't conform with nord and want to get a better theme idk",
+  "version": "0.2.0",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Casio Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Casio-color-theme.json"
+      }
+    ]
+  }
+}
