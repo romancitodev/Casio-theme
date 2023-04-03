@@ -17,5 +17,8 @@
         "path": "./themes/Casio-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "url": "https://github.com/ChirujanoCodding/Casio-theme"
   }
 }
