@@ -1,5 +1,11 @@
 # Changelog (2023-04-03)
 
+## Version 0.1.1
+
+### Added
+
+- New icon.
+
 ## Version 0.1.0
 
 ### Features
