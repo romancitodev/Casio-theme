@@ -1,9 +1,13 @@
-# 🕹️ Casio Theme
+
+<img src="./public/logo.png" alt="logo" width="200" style="display: block; margin: 0 auto"/>
+<br>
+<h1 align="center" style= "font-size: 40px">
+🕹️ Casio Theme
+</h1>
 
 Welcome to the Casio Theme for Visual Studio, a fresh and modern look for your favorite IDE! Inspired by a timeless design, this theme brings a touch of nostalgia to your coding environment, while also providing a comfortable and eye-catching experience.
 
 If you're tired of the boring, monochromatic Visual Studio default theme, give Casio a try!
-
 
 ## 📸 Screenshots
 ![image](./public/Dark.png)
