@@ -1,5 +1,7 @@
 
-<img src="./public/logo.png" alt="logo" width="200" style="display: block; margin: 0 auto"/>
+<p align="center">
+<img src="./public/logo.png" alt="logo" width="300" style="display: block; margin: 0 auto"/>
+</p>
 <br>
 <h1 align="center" style= "font-size: 40px">
 🕹️ Casio Theme
