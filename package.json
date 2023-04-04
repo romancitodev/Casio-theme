@@ -21,5 +21,6 @@
   "repository": {
     "url": "https://github.com/ChirujanoCodding/Casio-theme"
   },
-  "publisher": "ElShyrux"
+  "publisher": "ElShyrux",
+  "icon": "./public/logo.png"
 }
