@@ -1,3 +1,17 @@
+# Changelog (2023-08-03)
+
+## Version 0.1.3
+
+### Added
+
+- New colors on the status bar when debugging
+- Added "boolean" to SemanticTokenColors
+
+### Fixed
+
+- Some colors on terminal & debugger
+
+
 # Changelog (2023-04-03)
 
 ## Version 0.1.1

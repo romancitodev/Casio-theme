@@ -39,9 +39,21 @@
 		"tab.activeBorder": "#595e63",
 		"editorGroupHeader.tabsBackground": "#3c4147b7",
 		// panel
-		"panel.background": "#4d545c",
+		"panel.background": "#2a2e32",
+		// "panel.border": "#363b40",?
+		"terminal.selectionBackground": "#3c4147b7",
+		"terminal.tab.activeBorder": "#e67574",
+		// colores ansi para la terminal
+		"terminal.ansiBrightYellow": "#fde687",
+		"terminal.ansiBrightBlack": "#3c4147b7",
+		"terminal.ansiBrightWhite": "#86a0c6",
+		"terminal.ansiBrightCyan": "#4cbe9a",
+		"terminal.ansiCyan": "#4cbe9a",
 		// status bar
 		"statusBar.background": "#363b40",
+		"statusBar.debuggingBackground": "#82a8ad",
+		"statusBarItem.activeBackground": "#627a7c",
+		"statusBarItem.hoverBackground": "#627a7c",
 		// title bar
 		"titleBar.activeBackground": "#363b40",
 		// command center
@@ -83,6 +95,7 @@
 		"enum.public": "#90c2c9",
 		"enumMember.public": "#a1bec2",
 		"enumMember.declaration": "#a1bec2",
+		"boolean": "#F49E8B",
 		"lifetime": "#Dca054",
 		"decorator": "#e67574",
 		"builtinAttribute": "#e67574",
@@ -154,10 +167,10 @@
 				"entity.name.type.struct",
 				"meta.import",
 				"meta.attribute",
-				"entity.name.module.rust"
+				"entity.name.module"
 			],
 			"settings": {
-				"foreground": "#86a0c6"
+				"foreground": "#86a0c6",
 			}
 		},
 		{
@@ -198,7 +211,7 @@
 				"keyword.control",
 				"keyword.operator.arrow.fat",
 				"storage.modifier.mut",
-				"storage.modifier.rust"
+				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#e67574",
@@ -255,7 +268,8 @@
 			"scope": [
 				"constant.numeric",
 				"constant.language.json",
-				"constant.language.bool"
+				"constant.language.bool",
+				"constant.language.boolean"
 			],
 			"settings": {
 				"foreground": "#f49e8b",
