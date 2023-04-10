@@ -1,3 +1,10 @@
+# Changelog (2023-10-03)
+
+## Version 0.2.1
+
+### Added
+- Basic support for Python
+
 # Changelog (2023-08-03)
 
 ## Version 0.1.3

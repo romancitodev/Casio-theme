@@ -102,6 +102,7 @@
 		"interface": "#Dca054",
 		"derive": "#Dca054",
 		"deriveHelper": "#Dca054",
+		"variable.typeHint": "#Dca054",
 		"generic": "#88B3D1",
 		"attributeBracket": "#98999b",
 		"struct": "#86a0c6",
@@ -145,7 +146,9 @@
 				"keyword.operator.range",
 				"punctuation.brackets.square",
 				"keyword.operator.dereference",
-				"keyword.operator.assignment"
+				"keyword.operator.assignment",
+				"variable.parameter.function-call.python",
+				"punctuation.separator.annotation.python"
 			],
 			"settings": {
 				"foreground": "#98999b",
@@ -211,7 +214,12 @@
 				"keyword.control",
 				"keyword.operator.arrow.fat",
 				"storage.modifier.mut",
-				"storage.modifier"
+				"storage.modifier",
+				"punctuation.definition.dict.begin.python",
+				"punctuation.definition.dict.end.python",
+				"keyword.operator.unpacking.arguments.python",
+				"keyword.operator.arithmetic",
+				"support.other.escape.special.regexp"
 			],
 			"settings": {
 				"foreground": "#e67574",
@@ -226,6 +234,10 @@
 		{
 			"scope": [
 				"string.quoted.double",
+				"string.quoted.docstring.multi",
+				"string.quoted.single.python",
+				"constant.character.escape.python",
+				"string.regexp.quoted.single.python"
 			],
 			"settings": {
 				"foreground": "#4cbe9a"
@@ -258,7 +270,8 @@
 				"entity.name.type.option",
 				"entity.name.type.result",
 				"entity.name.type.primitive",
-				"entity.name.type.numeric"
+				"entity.name.type.numeric",
+				"constant.language.python"
 			],
 			"settings": {
 				"foreground": "#88B3D1",
@@ -286,11 +299,63 @@
 				"entity.name.type.lifetime",
 				"punctuation.definition.lifetime",
 				"entity.name.type.trait",
-				"entity.name.type.declaration"
+				"entity.name.type.declaration",
+				"meta.function-call.python",
+				"constant.other.caps.python",
+				"support.function.builtin.python",
 			],
 			"settings": {
 				"foreground": "#Dca054",
 			}
 		},
+		{
+			"scope": "meta.function-call.arguments.python",
+			"settings": {
+				"foreground": "#D4D4D4",
+			}
+		},
+		{
+			"scope": "meta.fstring.python",
+			"settings": {
+				"foreground": "#98999b"
+			}
+		},
+		// regex
+		{
+			"scope": "constant.character.escape.regexp",
+			"settings": {
+				"foreground": "#90b1c9"
+			}
+		},
+		{
+			"scope": "keyword.operator.quantifier.regexp",
+			"settings": {
+				"foreground": "#f49e8b",
+			}
+		},
+		{
+			"scope": [
+				"punctuation.parenthesis.non-capturing.begin.regexp",
+				"punctuation.parenthesis.non-capturing.end.regexp"
+			],
+			"settings": {
+				"foreground": "#98999b",
+			}
+		},
+		{
+			"scope": "string.regexp.quoted.single.python",
+			"settings": {
+				"foreground": "#d4d4d4",
+			}
+		},
+		{
+			"scope": [
+				"punctuation.parenthesis.begin.regexp",
+				"punctuation.parenthesis.end.regexp"
+			],
+			"settings": {
+				"foreground": "#74cc9d"
+			}
+		}
 	],
 }
