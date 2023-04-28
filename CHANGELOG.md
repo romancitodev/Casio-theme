@@ -1,5 +1,18 @@
 # Changelog (2023-10-03)
 
+## Version 1.0.0
+
+### Added
+
+- Full syntax highligthing to HTML + CSS + JSON
+
+### Removed
+
+- Temporary removed python sintax highligthing
+
+
+# Changelog (2023-10-03)
+
 ## Version 0.2.1
 
 ### Added
