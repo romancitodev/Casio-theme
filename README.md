@@ -36,8 +36,6 @@ If you're tired of the boring, monochromatic Visual Studio default theme, give C
 5. Select **Casio Color Vibes Theme** from **Tools** > **Options** > **Environment** > **General** > **Color theme**
 6. Enjoy!
 
-## ⚠️ Limitations
-> The theme is currently limited to Rust, but we plan to expand to other languages in the future.
 
 ## 📝 License
 
