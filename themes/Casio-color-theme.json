@@ -108,6 +108,7 @@
 		"typeAlias": "#Dca054",
 		"namespace.declaration": "#86a0c6",
 		"variable.constant": "#82cab3",
+		"variable.readonly": "#82cab3"
 	},
 	"tokenColors": [
 		//* Rust colors
@@ -124,7 +125,8 @@
 				"source.rust keyword.declaration.struct",
 				"source.rust keyword.declaration.enum",
 				"source.rust keyword.declaration.type",
-				"source.rust storage.type"
+				"source.rust storage.type",
+				"keyword.control.rust"
 			],
 			"settings": {
 				"foreground": "#e67574"
@@ -147,6 +149,9 @@
 				"source.rust punctuation.brackets.square",
 				"source.rust keyword.operator.dereference",
 				"source.rust keyword.operator.assignment",
+				"keyword.operator.access.dot.rust",
+				"keyword.operator.key-value.rust",
+				"punctuation.comma.rust"
 			],
 			"settings": {
 				"foreground": "#98999b",
@@ -358,7 +363,8 @@
 		},
 		{
 			"scope": [
-				"source.css constant.numeric"
+				"source.css constant.numeric",
+				"entity.other.keyframe-offset.percentage.css"
 			],
 			"settings": {
 				"foreground": "#f49e8b",
@@ -372,7 +378,8 @@
 				"punctuation.definition.entity.css",
 				"punctuation.definition.keyword.css",
 				"punctuation.separator.key-value.css",
-				"punctuation.separator.list.comma.css"
+				"punctuation.separator.list.comma.css",
+				"keyword.operator.combinator.css"
 			],
 			"settings": {
 				"foreground": "#98999b",
@@ -387,7 +394,8 @@
 		{
 			"scope": [
 				"variable.css",
-				"variable.argument.css"
+				"variable.argument.css",
+				"meta.property-value.css"
 			],
 			"settings": {
 				"foreground": "#82cab3"
@@ -403,7 +411,8 @@
 			"scope": [
 				"entity.other.attribute-name.pseudo-class.css",
 				"support.constant.property-value.css",
-				"support.constant.font-name.css"
+				"support.constant.font-name.css",
+				"entity.other.attribute-name.pseudo-element.css"
 			],
 			"settings": {
 				"foreground": "#Dca054"
@@ -447,8 +456,9 @@
 		},
 		{
 			"scope": [
-				"support.function.misc.css",
-				"support.function.url.css"
+				"source.css support.function",
+				"support.function.url.css",
+				"variable.parameter.keyframe-list.css",
 			],
 			"settings": {
 				"foreground": "#a1bec2"
@@ -526,7 +536,8 @@
 				"keyword.operator.new.js",
 				"keyword.operator.logical.js",
 				"keyword.operator.relational.js",
-				"keyword.operator.comparison.js"
+				"keyword.operator.comparison.js",
+				"storage.modifier.js"
 			],
 			"settings": {
 				"foreground": "#e67574"
@@ -537,7 +548,8 @@
 				"punctuation.terminator.statement.js",
 				"source.js keyword.operator",
 				"source.js punctuation.accessor",
-				"support.type.object.module.js"
+				"support.type.object.module.js",
+				"constant.language.import-export-all.js"
 			],
 			"settings": {
 				"foreground": "#98999b"
@@ -581,7 +593,7 @@
 			"name": "Variables",
 			"scope": "variable.other.constant.js",
 			"settings": {
-				"foreground": "#d4d4d4"
+				"foreground": "#82cab3"
 			}
 		},
 		{
@@ -640,6 +652,5 @@
 				"fontStyle": "bold"
 			}
 		},
-		// Typescript
 	],
 }
