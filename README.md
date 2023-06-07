@@ -33,7 +33,7 @@ If you're tired of the boring, monochromatic Visual Studio default theme, give C
 2. Go to **Extensions** > **Manage Extensions**
 3. Search for **Casio Theme**
 4. Click **Install**
-5. Select **Casio Color Vibes Theme** from **Tools** > **Options** > **Environment** > **General** > **Color theme**
+5. Select **Casio Theme** from **Tools** > **Options** > **Environment** > **General** > **Color theme**
 6. Enjoy!
 
 
