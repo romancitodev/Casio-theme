@@ -1,3 +1,13 @@
+# Changelog (2023-19-06)
+
+## Version 1.2.1-pre
+
+### Added
+
+- Support syntax to `yew` in Rust.
+
+
+
 # Changelog (2023-10-03)
 
 ## Version 1.0.0
