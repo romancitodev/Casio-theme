@@ -1,6 +1,6 @@
 # Changelog (2023-19-06)
 
-## Version 1.2.1-pre
+## Version 1.2.2
 
 ### Added
 
