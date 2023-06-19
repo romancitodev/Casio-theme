@@ -2,7 +2,7 @@
   "name": "casio",
   "displayName": "Casio Theme",
   "description": "A theme for people what doesn't conform with nord and want to get a better theme idk",
-  "version": "1.2.1-pre",
+  "version": "1.2.2",
   "engines": {
     "vscode": "^1.77.0"
   },
