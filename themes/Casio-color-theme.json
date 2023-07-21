@@ -724,7 +724,8 @@
 			"scope": [
 				"string.quoted.ts",
 				"string.quoted.single.ts",
-				"string.template.ts"
+				"string.quoted.double.ts",
+				"string.template.ts",
 			],
 			"settings": {
 				"foreground": "#4cbe9a"
@@ -755,18 +756,23 @@
 			}
 		},
 		{
+			"name": "Interface Types",
+			"scope": [
+				"entity.name.type.ts",
+				"entity.name.type.alias.ts",
+			],
+			"settings": {
+				"foreground": "#86a0c6"
+			}
+		},
+		{
 			"scope": "support.type.primitive.ts",
 			"settings": {
 				"foreground": "#D4D4D4",
 				"fontStyle": "underline"
 			}
 		},
-		{
-			"scope": "entity.name.type.ts",
-			"settings": {
-				"foreground": "#86a0c6"
-			}
-		},
+		
 		{
 			"scope": "entity.name.function.ts",
 			"settings": {
