@@ -109,7 +109,7 @@
 		"namespace.declaration": "#86a0c6",
 		"namespace.attribute": "#98999b",
 		"variable.constant": "#82cab3",
-		"variable.readonly": "#82cab3"
+		"variable.readonly": "#82cab3",
 	},
 	"tokenColors": [
 		//* Rust colors
@@ -691,6 +691,130 @@
 			"settings": {
 				"foreground": "#F49E8B",
 			}
-		}, 
+		},
+		// Typescript
+		{
+			"scope": [
+				"source.ts keyword.control",
+				"keyword.operator.ternary.ts",
+				"keyword.operator.new.ts",
+				"keyword.operator.logical.ts",
+				"keyword.operator.relational.ts",
+				"keyword.operator.comparison.ts",
+				"storage.modifier.ts",
+			],
+			"settings": {
+				"foreground": "#e67574"
+			},
+		},
+		{
+			"scope": [
+				"punctuation.terminator.statement.ts",
+				"source.ts keyword.operator",
+				"source.ts punctuation.accessor",
+				"support.type.object.module.ts",
+				"constant.language.import-export-all.ts"
+			],
+			"settings": {
+				"foreground": "#98999b",
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted.ts",
+				"string.quoted.single.ts",
+				"string.template.ts"
+			],
+			"settings": {
+				"foreground": "#4cbe9a"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"source.ts comment.line.double-slash.ts",
+				"comment.block.ts"
+			],
+			"settings": {
+				"foreground": "#6c7277"
+			}
+		},
+		{
+			"name": "Comment documentation",
+			"scope": "comment.block.documentation.ts",
+			"settings": {
+				"foreground": "#8e9499"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": "variable.other.constant.ts",
+			"settings": {
+				"foreground": "#82cab3"
+			}
+		},
+		{
+			"scope": "support.type.primitive.ts",
+			"settings": {
+				"foreground": "#D4D4D4",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": "entity.name.type.ts",
+			"settings": {
+				"foreground": "#86a0c6"
+			}
+		},
+		{
+			"scope": "entity.name.function.ts",
+			"settings": {
+				"foreground": "#a1bec2"
+			}
+		},
+		{
+			"scope": "meta.template.expression.ts",
+			"settings": {
+				"foreground": "#D4D4D4"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric.decimal.ts",
+				"source.ts constant.language.boolean"
+			],
+			"settings": {
+				"foreground": "#f49e8b"
+			}
+		},
+		{
+			"scope": "meta.object-literal.key.ts",
+			"settings": {
+				"foreground": "#a1bec2"
+			}
+		},
+		{
+			"scope": "storage.modifier.async.ts",
+			"settings": {
+				"foreground": "#e674ad"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.object.property.ts",
+				"variable.other.property.ts",
+				"constant.language.null.ts"
+			],
+			"settings": {
+				"foreground": "#90c2c9"
+			}
+		},
+		{
+			"scope": "variable.other.constant.property.ts",
+			"settings": {
+				"foreground": "#82cab3",
+			}
+		},
 	],
 }
