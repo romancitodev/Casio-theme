@@ -107,9 +107,11 @@
 		"rust.struct": "#86a0c6",
 		"typeAlias": "#Dca054",
 		"namespace.declaration": "#86a0c6",
-		"namespace.attribute": "#98999b",
-		"variable.constant": "#82cab3",
-		"variable.readonly": "#82cab3"
+		"namespace.attribute": "#59aaa3",
+		"variable.constant": "#a2bbd8",
+		"variable.readonly": "#a2bbd8",
+		"typeParameter": "#7b9bdb",
+		"method.declaration": "#90b1c9"
 	},
 	"tokenColors": [
 		//* Rust colors
@@ -202,7 +204,7 @@
 		{
 			"scope": [
 				"source.rust entity.name.function",
-				"source.rustkeyword.operator.subpattern"
+				"source.rustkeyword.operator.subpattern",
 			],
 			"settings": {
 				"foreground": "#90b1c9",
@@ -276,7 +278,7 @@
 		{
 			"scope": "source.rust constant.other.caps",
 			"settings": {
-				"foreground": "#82cab3",
+				"foreground": "#a2bbd8",
 			}
 		},
 		{
@@ -596,7 +598,7 @@
 			"name": "Variables",
 			"scope": "variable.other.constant.js",
 			"settings": {
-				"foreground": "#82cab3"
+				"foreground": "#a2bbd8"
 			}
 		},
 		{
