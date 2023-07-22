@@ -16,6 +16,8 @@ If you're tired of the boring, monochromatic Visual Studio default theme, give C
 ![image](./public/Dark.png)
 ### 🟠 Html & 🔵 Css
 ![image](./public/html_and_css.png)
+### 💙 Typescript
+![image](./public/image.png)
 
 ## ✨ Features
 
