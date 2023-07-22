@@ -101,16 +101,16 @@
 		"derive": "#Dca054",
 		"deriveHelper": "#Dca054",
 		"variable.typeHint": "#Dca054",
-		"rust.generic": "#88B3D1",
 		"attributeBracket": "#98999b",
-		"rust.struct": "#86a0c6",
 		"typeAlias": "#Dca054",
 		"namespace.declaration": "#86a0c6",
 		"namespace.attribute": "#98999b",
 		"variable.constant": "#a2bbd8",
 		"variable.readonly": "#a2bbd8",
 		"typeParameter": "#7b9bdb",
-		"method.declaration": "#90b1c9"
+		"method.declaration": "#90b1c9",
+		"struct": "#86a0c6",
+		"interface": "#Dca054"
 	},
 	"tokenColors": [
 		//* Rust colors
@@ -193,7 +193,6 @@
 		},
 		{
 			"scope": [
-				"source.rust entity.name.type",
 				"source.rust meta.function.call"
 			],
 			"settings": {
@@ -204,6 +203,8 @@
 			"scope": [
 				"source.rust entity.name.function",
 				"source.rustkeyword.operator.subpattern",
+				"entity.name.function.rust",
+				"entity.name.type.rust"
 			],
 			"settings": {
 				"foreground": "#90b1c9",
