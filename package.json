@@ -29,6 +29,7 @@
   "publisher": "ElShyrux",
   "icon": "public/logo.ico",
   "devDependencies": {
+    "@commitlint/config-conventional": "^17.6.7",
     "commitlint": "^17.6.7",
     "eslint": "^8.45.0",
     "eslint-plugin-json": "^3.1.0",
