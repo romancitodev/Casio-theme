@@ -9,6 +9,11 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint ./themes/** --ext .json,.js --fix",
+    "format": "prettier --write ./themes/**"
+  },
   "contributes": {
     "themes": [
       {
@@ -22,5 +27,12 @@
     "url": "https://github.com/ChirujanoCodding/Casio-theme"
   },
   "publisher": "ElShyrux",
-  "icon": "public/logo.ico"
+  "icon": "public/logo.ico",
+  "devDependencies": {
+    "commitlint": "^17.6.7",
+    "eslint": "^8.45.0",
+    "eslint-plugin-json": "^3.1.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.0"
+  }
 }

@@ -1,0 +1,5 @@
+{
+    "extends": [
+        "plugin:json/recommended-with-comments"
+    ]
+}
