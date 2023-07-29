@@ -937,6 +937,129 @@
 			"settings": {
 				"foreground": "#86a0c6",
 			}
+		},
+		// Python 🤞
+		{
+			"name": "Storage.type",
+			"scope": [
+				"storage.type.function.python"
+			],
+			"settings": {
+				"foreground": "#e67574",
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"source.python comment.line.number-sign.python",
+			],
+			"settings": {
+				"foreground": "#6c7277"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python",
+				"string.quoted.double.single-line.python",
+				"string.quoted.double.block.python",
+				"string.quoted.single.single-line.python",
+				"string.interpolated.python",
+				"string.quoted.docstring.single.python",
+				"string.quoted.single.python"
+			],
+			"settings": {
+				"foreground": "#4cbe9a"
+			}
+		},
+		{
+			"name": "F-String",
+			"scope": [
+				"constant.other.placeholder.python",
+				"constant.character.format.placeholder.other.python",
+				"meta.fstring.python",
+			],
+			"settings": {
+				"foreground": "#e67346"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"source.python",
+			],
+			"settings": {
+				"foreground": "#a2bbd8"
+			}
+		},
+		{
+			"name": "numeric-float",
+			"scope": [
+				"constant.numeric.dec.python",
+				"constant.numeric.float.python",
+			],
+			"settings": {
+				"foreground": "#f49e8b",
+			}
+		},
+		{
+			"name": "Function-call",
+			"scope": [
+				"meta.function-call.python",
+			],
+			"settings": {
+				"foreground": "#78bcc5"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": [
+				"entity.name.function.python",
+				"variable.parameter.function-call.python"
+			],
+			"settings": {
+				"foreground": "#a1bec2"
+			}
+		},
+		{
+			"name": "From-import",
+			"scope": [
+				"keyword.control.import.python",
+				"keyword.control.import.from.python"
+			],
+			"settings": {
+				"foreground": "#fc2251"
+			}
+		},
+		{
+			"name": "operator",
+			"scope": [
+				"keyword.control.flow.python"
+			],
+			"settings": {
+				"foreground": "#e67574",
+			}
+		},
+		// no me deja colorear class y typeHint eso es un bug :/
+		{
+			"name": "class",
+			"scope": [
+				"entity.name.class",
+				"meta.class.python"
+			],
+			"settings": {
+				"foreground": "#Dca054",
+			}
+		},
+		{
+			"name": "typeHint",
+			"scope": [
+				"support.type.python",
+			],
+			"settings": {
+				"foreground": "#d6b589",
+			}
 		}
 	],
 }
