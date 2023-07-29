@@ -110,7 +110,11 @@
 		"typeParameter": "#7b9bdb",
 		"method.declaration": "#90b1c9",
 		"struct": "#86a0c6",
-		"interface": "#Dca054"
+		"interface": "#Dca054",
+		"selfParameter.declaration": "#e67574",
+		"selfParameter": "#e67574",
+		"class.typeHint.builtin": "#Dca054",
+		"class.decorator.builtin": "#e674ad"
 	},
 	"tokenColors": [
 		//* Rust colors
@@ -967,7 +971,8 @@
 				"string.quoted.single.single-line.python",
 				"string.interpolated.python",
 				"string.quoted.docstring.single.python",
-				"string.quoted.single.python"
+				"string.quoted.single.python",
+				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
 				"foreground": "#4cbe9a"
@@ -981,7 +986,17 @@
 				"meta.fstring.python",
 			],
 			"settings": {
-				"foreground": "#e67346"
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"name": "F-String advanced",
+			"scope": [
+				"constant.character.escape.python"
+			],
+			"settings": {
+				"foreground": "#4cbe9a",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -990,7 +1005,7 @@
 				"source.python",
 			],
 			"settings": {
-				"foreground": "#a2bbd8"
+				"foreground": "#d4d4d4",
 			}
 		},
 		{
@@ -1016,10 +1031,12 @@
 			"name": "Function",
 			"scope": [
 				"entity.name.function.python",
+				"entity.name.function.member.python",
+				"meta.function-call.python",
 				"variable.parameter.function-call.python"
 			],
 			"settings": {
-				"foreground": "#a1bec2"
+				"foreground": "#90b1c9"
 			}
 		},
 		{
@@ -1029,13 +1046,20 @@
 				"keyword.control.import.from.python"
 			],
 			"settings": {
-				"foreground": "#fc2251"
+				"foreground": "#e67574"
 			}
 		},
 		{
 			"name": "operator",
 			"scope": [
-				"keyword.control.flow.python"
+				"keyword.control.flow.python",
+				"keyword.operator.comparison.python",
+				"keyword.operator.logical.python",
+				"constant.language.python",
+				"keyword.operator.arithmetic.python",
+				"keyword.operator.unpacking.arguments.python",
+				"keyword.operator.unpacking.parameter.python",
+				"keyword.operator.bitwise.python"
 			],
 			"settings": {
 				"foreground": "#e67574",
@@ -1049,7 +1073,7 @@
 				"meta.class.python"
 			],
 			"settings": {
-				"foreground": "#Dca054",
+				"foreground": "#86a0c6",
 			}
 		},
 		{
@@ -1059,6 +1083,38 @@
 			],
 			"settings": {
 				"foreground": "#d6b589",
+			}
+		},
+		{
+			"scope": ["punctuation.separator.period.python", "keyword.operator.assignment.python", "punctuation.section.class.begin.python", "punctuation.section.function.begin.python", "punctuation.separator.annotation.result.python", "punctuation.separator.annotation.python", "punctuation.definition.decorator.python", "punctuation.separator.colon.python","punctuation.separator.arguments.python","punctuation.separator.slice.python","variable.parameter.function-call.python","punctuation.section.function.lambda.begin.python","punctuation.separator.element.python", "constant.other.ellipsis.python"],
+			"settings": {
+				"foreground": "#98999b",
+			}
+		},
+		{
+			"name": "Self",
+			"scope": ["variable.language.special.self.python", "variable.parameter.function.language.special.self.python", "support.type.python meta.function.decorator.python"],
+			"settings": {
+				"foreground": "#e674ad",
+			}
+		},
+		{
+			"scope": "meta.attribute.python",
+			"settings": {
+				"foreground": "#86a0c6",
+			}
+		},
+		{
+			"name": "magic functions",
+			"scope":["support.function.magic.python", "support.variable.magic.python", "meta.function-call.arguments.python", "support.function.builtin.python"],
+			"settings": {
+				"foreground": "#90b1c9",
+			}
+		},
+		{
+			"scope": "source.python entity.name",
+			"settings": {
+				"foreground": "#98999b"
 			}
 		}
 	],
