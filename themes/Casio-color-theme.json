@@ -900,6 +900,72 @@
             "settings": {
                 "foreground": "#86a0c6"
             }
+        },
+        // Svelte
+        {
+            "scope": "entity.name.tag.svelte",
+            "settings": {
+                "foreground": "#e67574"
+            }
+        },
+        {
+            "scope": "meta.tag",
+            "settings": {
+                "foreground": "#e674ad"
+            }
+        },
+        {
+            "scope": "meta.embedded.expression.svelte",
+            "settings": {
+                "foreground": "#d4d4d4"
+            }
+        },
+		{
+			"scope": "meta.special",
+			"settings": {
+				"foreground": "#e674ad"
+			}
+		},
+        {
+            "scope": "string.quoted.svelte",
+            "settings": {
+                "foreground": "#4cbe9a"
+            }
+        },
+		
+		{
+			"scope": "meta.tag.start.svelte",
+			"settings": {
+				"foreground": "#e674ad"
+			}
+		},
+        {
+            "scope": [
+                "punctuation.separator.key-value.svelte",
+                "punctuation.definition.tag.begin.svelte",
+                "punctuation.definition.tag.end.svelte"
+            ],
+            "settings": {
+                "foreground": "#98999b"
+            }
+        },
+        {
+            "scope": ["meta.attribute.crossorigin.svelte"],
+            "settings": {
+                "foreground": "#Dca054"
+            }
+        },
+        {
+            "scope": ["entity.other.attribute-name.svelte"],
+            "settings": {
+                "foreground": "#90c2c9"
+            }
+        },
+        {
+            "scope": ["comment.block.svelte"],
+            "settings": {
+                "foreground": "#6c7277"
+            }
         }
     ]
 }
