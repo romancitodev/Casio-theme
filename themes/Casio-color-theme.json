@@ -920,25 +920,25 @@
                 "foreground": "#d4d4d4"
             }
         },
-		{
-			"scope": "meta.special",
-			"settings": {
-				"foreground": "#e674ad"
-			}
-		},
+        {
+            "scope": "meta.special",
+            "settings": {
+                "foreground": "#e674ad"
+            }
+        },
         {
             "scope": "string.quoted.svelte",
             "settings": {
                 "foreground": "#4cbe9a"
             }
         },
-		
-		{
-			"scope": "meta.tag.start.svelte",
-			"settings": {
-				"foreground": "#e674ad"
-			}
-		},
+
+        {
+            "scope": "meta.tag.start.svelte",
+            "settings": {
+                "foreground": "#e674ad"
+            }
+        },
         {
             "scope": [
                 "punctuation.separator.key-value.svelte",
