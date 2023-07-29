@@ -4,9 +4,9 @@
     "semanticHighlighting": true,
     "colors": {
         // menu
-        "menu.background": "#3C4147",
-        "menu.border": "#3C4147",
-        "menubar.selectionBorder": "#3C4147",
+        "menu.background": "#363b40",
+        "menu.border": "#363b40",
+        "menubar.selectionBorder": "#363b40",
         "menu.separatorBackground": "#282a2c",
         "menu.selectionBackground": "#282a2c",
         "menu.selectionBorder": "#282a2c",
@@ -34,13 +34,13 @@
         "contrastBorder": "#2a2e32",
         // tabs
         "tab.activeBackground": "#4d545c",
-        "tab.inactiveBackground": "#3c41478f",
+        "tab.inactiveBackground": "#363b40",
         "tab.hoverBackground": "#595e63",
-        "tab.border": "#3c4147",
+        "tab.border": "#363b40",
         "tab.activeBorder": "#595e63",
-        "editorGroupHeader.tabsBackground": "#3c4147b7",
+        "editorGroupHeader.tabsBackground": "#363b40",
         // panel
-        "panel.background": "#2a2e32",
+        "panel.background": "#363b40",
         "terminal.selectionBackground": "#3c4147b7",
         "terminal.tab.activeBorder": "#e67574",
         // colores ansi para la terminal
@@ -53,13 +53,13 @@
         "statusBar.background": "#363b40",
         "statusBar.debuggingBackground": "#82a8ad",
         "statusBarItem.activeBackground": "#627a7c",
-        "statusBarItem.hoverBackground": "#627a7c",
+        "statusBarItem.hoverBackground": "#ffffff1a",
         // title bar
         "titleBar.activeBackground": "#363b40",
         // command center
         "commandCenter.background": "#363b40",
         // activiy bar
-        "activityBar.background": "#32363bb7",
+        "activityBar.background": "#363b40",
         "activityBarBadge.background": "#e67574",
         // coloreado de {} y []
         "editorBracketHighlight.foreground1": "#98999b",
@@ -74,13 +74,13 @@
         // botones
         "button.background": "#e67574",
         // no se que carajo estoy tocando ya
-        "editorWidget.background": "#2a2e32",
-        "peekViewEditor.background": "#2a2e32",
+        "editorWidget.background": "#363b40",
+        "peekViewEditor.background": "#363b40",
         "peekView.border": "#363b40",
-        "peekViewResult.background": "#2a2e32",
-        "peekViewResult.matchHighlightBackground": "#3C4147",
-        "peekViewEditor.matchHighlightBackground": "#4d545c",
-        "peekViewEditor.matchHighlightBorder": "#4d545c",
+        "peekViewResult.background": "#363b40",
+        "peekViewResult.matchHighlightBackground": "#525963",
+        "peekViewEditor.matchHighlightBackground": "#525963",
+        "peekViewEditor.matchHighlightBorder": "#525963",
         // searcher
         "searchEditor.findMatchBackground": "#2a2e32",
         "list.activeSelectionBackground": "#88b3d163",

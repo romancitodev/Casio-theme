@@ -20,6 +20,21 @@
         "label": "Casio Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Casio-color-theme.json"
+      },
+      {
+        "label": "Casio Theme Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Casio-Darker-theme.json"
+      },
+      {
+        "label": "Casio Theme Darker Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Casio-Darker-Flat-theme.json"
+      },
+      {
+        "label": "Casio Theme Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Casio-color-flat-theme.json"
       }
     ]
   },
