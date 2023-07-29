@@ -1034,8 +1034,8 @@
                 "foreground": "#6c7277"
             }
         },
-         // YAML
-         {
+        // YAML
+        {
             "scope": [
                 "source.yaml keyword.operator",
                 "source.yaml punctuation.separator.key-value"

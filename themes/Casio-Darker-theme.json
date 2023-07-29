@@ -90,8 +90,7 @@
         // Command Palette
         "quickInput.background": "#292929",
         "quickInput.foreground": "#d4d4d4",
-        "quickInputList.focusBackground": "#ffffff22",
-
+        "quickInputList.focusBackground": "#ffffff22"
     },
     "semanticTokenColors": {
         "builtinType": "#88B3D1",
@@ -1039,8 +1038,8 @@
                 "foreground": "#6c7277"
             }
         },
-         // YAML
-         {
+        // YAML
+        {
             "scope": [
                 "source.yaml keyword.operator",
                 "source.yaml punctuation.separator.key-value"
@@ -1092,5 +1091,4 @@
             }
         }
     ]
-    
 }
