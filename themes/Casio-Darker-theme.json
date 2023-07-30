@@ -13,9 +13,9 @@
         // editor
         "editor.background": "#292929",
         "editor.foreground": "#d4d4d4",
-        "editor.selectionBackground": "#4d545c83",
-        "editor.lineHighlightBackground": "#4d545c",
-        "editor.selectionHighlightBackground": "#4d545c",
+        "editor.selectionBackground": "#4d4d4d83",
+        "editor.lineHighlightBackground": "#303235",
+        "editor.selectionHighlightBackground": "#37393b",
         "editor.rangeHighlightBackground": "#4d545c",
         "editor.findMatchBackground": "#4d545c",
         "editor.findMatchHighlightBackground": "#4d545c",
