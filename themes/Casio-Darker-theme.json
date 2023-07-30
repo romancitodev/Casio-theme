@@ -484,7 +484,8 @@
         {
             "scope": [
                 "source.json punctuation.separator.dictionary.key-value.json",
-                "source.json punctuation.separator.dictionary.pair.json"
+                "source.json punctuation.separator.dictionary.pair.json",
+                "punctuation.separator.array.json"
             ],
             "settings": {
                 "foreground": "#98999b"
@@ -972,7 +973,7 @@
                 "foreground": "#6c7277"
             }
         },
-       // Astro
+        // Astro
         {
             "scope": "entity.name.tag.astro",
             "settings": {
@@ -1272,6 +1273,36 @@
             "scope": "source.python entity.name",
             "settings": {
                 "foreground": "#98999b"
+            }
+        },
+        // TOML
+        {
+           "scope": ["punctuation.definition.table.toml", "source.toml punctuation.separator", "punctuation.eq.toml", "punctuation.definition.table.inline.toml"],
+            "settings": {
+                "foreground": "#98999b",
+            }
+        },
+        {
+            "scope": ["support.type.property-name.toml", "meta.table.inline.toml", "support.type.property-name.toml", "meta.table.inline.toml"],
+            "settings": {
+                "foreground": "#88B3D1",
+            }
+        },
+        {
+            "scope": ["string.quoted.single.basic.line.toml"],
+            "settings": {
+                "foreground": "#85ddc1"
+            }
+        },
+        {
+            "scope": ["meta.array.table.toml", "meta.table.toml"],
+            "settings": {
+                "foreground": "#e67574",
+            }
+        }, {
+            "scope": ["constant.numeric.integer.toml", "constant.language.boolean.toml"],
+            "settings": {
+                "foreground": "#f49e8b",
             }
         }
     ]
