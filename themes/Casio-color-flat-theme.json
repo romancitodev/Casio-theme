@@ -1085,6 +1085,190 @@
             "settings": {
                 "foreground": "#9ac1c8"
             }
+        },
+        // Python 🤞
+        {
+            "name": "Storage.type",
+            "scope": ["storage.type.function.python"],
+            "settings": {
+                "foreground": "#e67574"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": ["source.python comment.line.number-sign.python"],
+            "settings": {
+                "foreground": "#6c7277"
+            }
+        },
+        {
+            "name": "String",
+            "scope": [
+                "punctuation.definition.string.begin.python",
+                "punctuation.definition.string.end.python",
+                "string.quoted.double.single-line.python",
+                "string.quoted.double.block.python",
+                "string.quoted.single.single-line.python",
+                "string.interpolated.python",
+                "string.quoted.docstring.single.python",
+                "string.quoted.single.python",
+                "string.quoted.docstring.multi.python"
+            ],
+            "settings": {
+                "foreground": "#4cbe9a"
+            }
+        },
+        {
+            "name": "F-String",
+            "scope": [
+                "constant.other.placeholder.python",
+                "constant.character.format.placeholder.other.python",
+                "meta.fstring.python"
+            ],
+            "settings": {
+                "foreground": "#d4d4d4"
+            }
+        },
+        {
+            "name": "F-String advanced",
+            "scope": ["constant.character.escape.python"],
+            "settings": {
+                "foreground": "#4cbe9a",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Variable",
+            "scope": ["source.python"],
+            "settings": {
+                "foreground": "#d4d4d4"
+            }
+        },
+        {
+            "name": "numeric-float",
+            "scope": [
+                "constant.numeric.dec.python",
+                "constant.numeric.float.python"
+            ],
+            "settings": {
+                "foreground": "#f49e8b"
+            }
+        },
+        {
+            "name": "Function-call",
+            "scope": ["meta.function-call.python"],
+            "settings": {
+                "foreground": "#78bcc5"
+            }
+        },
+        {
+            "name": "Function",
+            "scope": [
+                "entity.name.function.python",
+                "entity.name.function.member.python",
+                "meta.function-call.python",
+                "variable.parameter.function-call.python"
+            ],
+            "settings": {
+                "foreground": "#90b1c9"
+            }
+        },
+        {
+            "name": "From-import",
+            "scope": [
+                "keyword.control.import.python",
+                "keyword.control.import.from.python"
+            ],
+            "settings": {
+                "foreground": "#e67574"
+            }
+        },
+        {
+            "name": "operator",
+            "scope": [
+                "keyword.control.flow.python",
+                "keyword.operator.comparison.python",
+                "keyword.operator.logical.python",
+                "constant.language.python",
+                "keyword.operator.arithmetic.python",
+                "keyword.operator.unpacking.arguments.python",
+                "keyword.operator.unpacking.parameter.python",
+                "keyword.operator.bitwise.python"
+            ],
+            "settings": {
+                "foreground": "#e67574"
+            }
+        },
+        // no me deja colorear class y typeHint eso es un bug :/
+        {
+            "name": "class",
+            "scope": ["entity.name.class", "meta.class.python"],
+            "settings": {
+                "foreground": "#86a0c6"
+            }
+        },
+        {
+            "name": "typeHint",
+            "scope": ["support.type.python"],
+            "settings": {
+                "foreground": "#d6b589"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.separator.period.python",
+                "keyword.operator.assignment.python",
+                "punctuation.section.class.begin.python",
+                "punctuation.section.function.begin.python",
+                "punctuation.separator.annotation.result.python",
+                "punctuation.separator.annotation.python",
+                "punctuation.definition.decorator.python",
+                "punctuation.separator.colon.python",
+                "punctuation.separator.arguments.python",
+                "punctuation.separator.slice.python",
+                "variable.parameter.function-call.python",
+                "punctuation.section.function.lambda.begin.python",
+                "punctuation.separator.element.python",
+                "constant.other.ellipsis.python"
+            ],
+            "settings": {
+                "foreground": "#98999b"
+            }
+        },
+        {
+            "name": "Self",
+            "scope": [
+                "variable.language.special.self.python",
+                "variable.parameter.function.language.special.self.python",
+                "support.type.python meta.function.decorator.python"
+            ],
+            "settings": {
+                "foreground": "#e674ad"
+            }
+        },
+        {
+            "scope": "meta.attribute.python",
+            "settings": {
+                "foreground": "#86a0c6"
+            }
+        },
+        {
+            "name": "magic functions",
+            "scope": [
+                "support.function.magic.python",
+                "support.variable.magic.python",
+                "meta.function-call.arguments.python",
+                "support.function.builtin.python"
+            ],
+            "settings": {
+                "foreground": "#90b1c9"
+            }
+        },
+        {
+            "scope": "source.python entity.name",
+            "settings": {
+                "foreground": "#98999b"
+            }
         }
     ]
 }
