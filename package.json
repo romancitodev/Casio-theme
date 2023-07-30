@@ -9,12 +9,32 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint ./themes/** --ext .json,.js --fix",
+    "format": "prettier --write ./themes/**"
+  },
   "contributes": {
     "themes": [
       {
         "label": "Casio Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Casio-color-theme.json"
+      },
+      {
+        "label": "Casio Theme Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Casio-Darker-theme.json"
+      },
+      {
+        "label": "Casio Theme Darker Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Casio-Darker-Flat-theme.json"
+      },
+      {
+        "label": "Casio Theme Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Casio-color-flat-theme.json"
       }
     ]
   },
@@ -22,5 +42,13 @@
     "url": "https://github.com/ChirujanoCodding/Casio-theme"
   },
   "publisher": "ElShyrux",
-  "icon": "public/logo.ico"
+  "icon": "public/logo.ico",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.6.7",
+    "commitlint": "^17.6.7",
+    "eslint": "^8.45.0",
+    "eslint-plugin-json": "^3.1.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.0"
+  }
 }
