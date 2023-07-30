@@ -1003,7 +1003,7 @@
         {
             "scope": "meta.tag.start.astro",
             "settings": {
-                "foreground": "#e674ad"
+                "foreground": "#DCA054"
             }
         },
         {
@@ -1029,7 +1029,7 @@
             }
         },
         {
-            "scope": ["comment.block.astro"],
+            "scope": ["comment.block.astro", "comment"],
             "settings": {
                 "foreground": "#6c7277"
             }
@@ -1041,7 +1041,7 @@
                 "source.yaml punctuation.separator.key-value"
             ],
             "settings": {
-                "foreground": "#fff"
+                "foreground": "#98999b"
             }
         },
         {

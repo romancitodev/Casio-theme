@@ -972,7 +972,7 @@
                 "foreground": "#6c7277"
             }
         },
-        // Astro
+       // Astro
         {
             "scope": "entity.name.tag.astro",
             "settings": {
@@ -1007,7 +1007,7 @@
         {
             "scope": "meta.tag.start.astro",
             "settings": {
-                "foreground": "#e674ad"
+                "foreground": "#DCA054"
             }
         },
         {
@@ -1033,7 +1033,7 @@
             }
         },
         {
-            "scope": ["comment.block.astro"],
+            "scope": ["comment.block.astro", "comment"],
             "settings": {
                 "foreground": "#6c7277"
             }
