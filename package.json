@@ -35,6 +35,11 @@
         "label": "Casio Theme Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/Casio-color-flat-theme.json"
+      },
+      {
+        "label": "Casio Theme Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Casio-color-Dark-Pro-theme.json"
       }
     ]
   },
