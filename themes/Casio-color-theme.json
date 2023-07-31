@@ -1143,7 +1143,8 @@
 			"scope": [
 				"string.quoted.binary.single.python",
 				"string.regexp.quoted.single.python",
-				"string.quoted.docstring.raw.single.python",],
+				"string.quoted.docstring.raw.single.python",
+			],
 			"settings": {
 				"foreground": "#4cbe9a"
 			}
