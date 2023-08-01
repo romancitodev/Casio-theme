@@ -40,6 +40,11 @@
         "label": "Casio Theme Dark Pro",
         "uiTheme": "vs-dark",
         "path": "./themes/Casio-color-Dark-Pro-theme.json"
+      },
+      {
+        "label": "Casio Theme High Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Casio-High-Contrast-theme.json"
       }
     ]
   },
