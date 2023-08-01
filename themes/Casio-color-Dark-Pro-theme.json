@@ -12,7 +12,7 @@
         "menu.selectionBorder": "#282a2c",
         // editor
         "editor.background": "#15181a",
-        "editor.selectionBackground": "#8aa19883",
+        "editor.selectionBackground": "#20242383",
         "editorGroupHeader.tabsBackground": "#15181a",
         "editor.lineHighlightBackground": "#2c3438",
         "editor.selectionHighlightBackground": "#33383d",
@@ -80,7 +80,8 @@
         // botones
         "button.background": "#e67574",
         // no se que carajo estoy tocando ya
-        "editorWidget.background": "#2a2e32",
+        "editorWidget.background": "#15181a",
+        "keybindingLabel.background":"#15181a", 
         "peekViewEditor.background": "#2a2e32",
         "peekView.border": "#15181a",
         "peekViewResult.background": "#2a2e32",
@@ -89,7 +90,7 @@
         "peekViewEditor.matchHighlightBorder": "#4d545c",
         // searcher
         "searchEditor.findMatchBackground": "#2a2e32",
-        "list.activeSelectionBackground": "#88b3d163",
+        "list.activeSelectionBackground": "#30363a63",
         "list.focusOutline": "#88b3d163",
         "focusBorder": "#88b3d163",
         "selection.background": "#4d545c"
