@@ -3,8 +3,12 @@
     "type": "dark",
     "semanticHighlighting": true,
     "colors": {
+        // notifications
+        "notifications.background": "#0B0B09",
+        "notificationToast.border": "#00D1D1",
+        "notificationCenter.border": "#00D1D1",
         // menu
-        "menu.background": "#363b40",
+        "menu.background": "#0B0B09",
         "menu.border": "#363b40",
         "menubar.selectionBorder": "#363b40",
         "menu.separatorBackground": "#282a2c",
@@ -13,8 +17,8 @@
         // editor
         "editor.background": "#0B0B09",
         "editor.foreground": "#d4d4d4",
-        "editor.selectionBackground": "#4d545c83",
-        "editor.lineHighlightBackground": "#4d545c",
+        "editor.selectionBackground": "#0B0B09",
+        "editor.lineHighlightBackground": "#23272b",
         "editor.selectionHighlightBackground": "#4d545c",
         "editor.rangeHighlightBackground": "#4d545c",
         "editor.findMatchBackground": "#4d545c",
@@ -35,7 +39,7 @@
         "window.inactiveBorder": "#0e1013",
         "contrastBorder": "#2a2e32",
         // tabs
-        "tab.activeBackground": "#4d545c",
+        "tab.activeBackground": "#0B0B09",
         "tab.inactiveBackground": "#0B0B09",
         "tab.hoverBackground": "#595e63",
         "tab.border": "#363b40",
@@ -84,17 +88,19 @@
         "badge.foreground": "#98999b",
         // botones
         "button.background": "#e67574",
-        // no se que carajo estoy tocando ya
-        "editorWidget.background": "#363b40",
-        "peekViewEditor.background": "#363b40",
+        // no se que carajo estoy tocando ya [Editor Hover | Suggestion Widget | Find/Replace Dialog]
+        "editorWidget.background": "#0B0B09",
+        "editorWidget.border": "#98999b",
+        // ---
+        "peekViewEditor.background": "#0B0B09",
         "peekView.border": "#363b40",
-        "peekViewResult.background": "#363b40",
-        "peekViewResult.matchHighlightBackground": "#525963",
-        "peekViewEditor.matchHighlightBackground": "#525963",
-        "peekViewEditor.matchHighlightBorder": "#525963",
+        "peekViewResult.background": "#0B0B09",
+        "peekViewResult.matchHighlightBackground": "#1d1f23",
+        "peekViewEditor.matchHighlightBackground": "#1d1f23",
+        "peekViewEditor.matchHighlightBorder": "#1d1f23",
         // searcher
         "searchEditor.findMatchBackground": "#2a2e32",
-        "list.activeSelectionBackground": "#88b3d163",
+        "list.activeSelectionBackground": "#455b6a63",
         "list.focusOutline": "#88b3d163",
         "focusBorder": "#88b3d163",
         "selection.background": "#4d545c"
