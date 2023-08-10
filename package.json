@@ -18,16 +18,16 @@
     "themes": [
       {
         "label": "Casio Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Casio-color-theme.json"
-      },
-      {
-        "label": "Casio Theme Darker",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Casio-Darker-theme.json"
-      },
-      {
-        "label": "Casio Theme Darker Flat",
+          "uiTheme": "vs-dark",
+          "path": "./themes/Casio-color-theme.json"
+        },
+        {
+          "label": "Casio Theme Darker",
+          "uiTheme": "vs-dark",
+          "path": "./themes/Casio-Darker-theme.json"
+        },
+        {
+          "label": "Casio Theme Darker Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/Casio-Darker-Flat-theme.json"
       },

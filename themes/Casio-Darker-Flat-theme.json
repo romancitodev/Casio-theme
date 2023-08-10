@@ -131,7 +131,8 @@
                 "source.rust keyword.declaration.enum",
                 "source.rust keyword.declaration.type",
                 "source.rust storage.type",
-                "keyword.control.rust"
+                "keyword.control.rust",
+                "variable.language.super.rust"
             ],
             "settings": {
                 "foreground": "#e67574"
@@ -158,7 +159,8 @@
                 "keyword.operator.key-value.rust",
                 "punctuation.comma.rust",
                 "source.rust punctuation.macro.open",
-                "source.rust punctuation.macro.close"
+                "source.rust punctuation.macro.close",
+                "variable.other.rust"
             ],
             "settings": {
                 "foreground": "#98999b"
@@ -913,12 +915,6 @@
             }
         },
         {
-            "scope": "meta.tag",
-            "settings": {
-                "foreground": "#e674ad"
-            }
-        },
-        {
             "scope": "meta.embedded.expression.svelte",
             "settings": {
                 "foreground": "#d4d4d4"
@@ -1324,6 +1320,34 @@
             ],
             "settings": {
                 "foreground": "#f49e8b"
+            }
+        },        // RegExp
+        {
+            "name": "Regex groups",
+            "scope": ["punctuation.parenthesis.non-capturing.begin.regexp", "punctuation.parenthesis.non-capturing.end.regexp", "punctuation.parenthesis.begin.regexp", "punctuation.parenthesis.end.regexp", "keyword.operator.lookahead.regexp", "constant.other.set.regexp"],
+            "settings": {
+                "foreground": "#98999b",
+            }
+        },
+        {
+            "name": "Regex Operators",
+            "scope": ["keyword.operator.quantifier.regexp","support.other.match.begin.regexp", "support.other.match.end.regexp"],
+            "settings": {
+                "foreground": "#e67574"
+            }
+        },
+        {
+            "name": "Regex literal chars",
+            "scope": ["constant.character.escape.regexp", "constant.character.set.regexp"],
+            "settings": {
+                "foreground": "#90b1c9"
+            }
+        },
+        {
+            "name": "Regex special chars",
+            "scope": ["support.other.escape.special.regexp", "support.other.match.any.regexp"],
+            "settings": {
+                "foreground": "#Dca054"
             }
         }
     ]
