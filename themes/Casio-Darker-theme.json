@@ -115,7 +115,8 @@
         "typeParameter": "#7b9bdb",
         "method.declaration": "#90b1c9",
         "struct": "#86a0c6",
-        "interface": "#Dca054"
+        "interface": "#Dca054",
+        "variable.declaration": "#d4d4d4"
     },
     "tokenColors": [
         //* Rust colors
@@ -132,7 +133,8 @@
                 "source.rust keyword.declaration.type",
                 "source.rust storage.type",
                 "keyword.control.rust",
-                "variable.language.super.rust"
+                "variable.language.super.rust",
+                "keyword.operator.macro.dollar.rust"
             ],
             "settings": {
                 "foreground": "#e67574"
@@ -160,7 +162,7 @@
                 "punctuation.comma.rust",
                 "source.rust punctuation.macro.open",
                 "source.rust punctuation.macro.close",
-                "variable.other.rust"
+                "source.rust meta.function.definition.rust"
             ],
             "settings": {
                 "foreground": "#98999b"
@@ -220,15 +222,13 @@
                 "source.rust keyword.operator.question",
                 "source.rust keyword.operator.math",
                 "source.rust variable.language.self",
-                "source.rustkeyword.control",
+                "source.rust keyword.control",
                 "source.rust keyword.operator.arrow.fat",
                 "source.rust storage.modifier.mut",
                 "source.rust storage.modifier",
-                "source.rust punctuation.definition.dict.begin.python",
-                "source.rust punctuation.definition.dict.end.python",
-                "source.rust keyword.operator.unpacking.arguments.python",
                 "source.rust keyword.operator.arithmetic",
-                "source.rust support.other.escape.special.regexp"
+                "source.rust meta.macro.rules.rust",
+                "entity.name.function.macro.rules.rust"
             ],
             "settings": {
                 "foreground": "#e67574"
@@ -237,7 +237,8 @@
         {
             "scope": [
                 "source.rust meta.macro",
-                "sentity.name.function.preprocessor"
+                "sentity.name.function.preprocessor",
+                "entity.name.function.macro.rust"
             ],
             "settings": {
                 "foreground": "#90b1c9"
@@ -288,10 +289,17 @@
                 "source.rust entity.name.type.lifetime",
                 "source.rust punctuation.definition.lifetime",
                 "source.rust entity.name.type.trait",
-                "source.rust entity.name.type.declaration"
+                "source.rust entity.name.type.declaration",
+                "source.rust variable.other.metavariable.specifier.rust"
             ],
             "settings": {
                 "foreground": "#Dca054"
+            }
+        },
+        {
+            "scope": ["variable.other.metavariable.name.rust"],
+            "settings": {
+                "foreground": "#d4d4d4",
             }
         },
         // html
@@ -752,7 +760,6 @@
                 "fontStyle": "underline"
             }
         },
-
         {
             "scope": "entity.name.function.ts",
             "settings": {
@@ -834,7 +841,6 @@
                 "foreground": "#a1bec2"
             }
         },
-
         {
             "scope": ["entity.other.attribute-name.tsx"],
             "settings": {
@@ -934,7 +940,6 @@
                 "foreground": "#4cbe9a"
             }
         },
-
         {
             "scope": "meta.tag.start.svelte",
             "settings": {
@@ -977,12 +982,6 @@
             }
         },
         {
-            "scope": "meta.tag",
-            "settings": {
-                "foreground": "#e674ad"
-            }
-        },
-        {
             "scope": "meta.embedded.expression.astro",
             "settings": {
                 "foreground": "#d4d4d4"
@@ -1000,7 +999,6 @@
                 "foreground": "#4cbe9a"
             }
         },
-
         {
             "scope": "meta.tag.start.astro",
             "settings": {
@@ -1042,7 +1040,7 @@
                 "source.yaml punctuation.separator.key-value"
             ],
             "settings": {
-                "foreground": "#fff"
+                "foreground": "#98999b"
             }
         },
         {
@@ -1211,7 +1209,6 @@
                 "foreground": "#e67574"
             }
         },
-        // no me deja colorear class y typeHint eso es un bug :/
         {
             "name": "class",
             "scope": ["entity.name.class", "meta.class.python"],
@@ -1298,8 +1295,7 @@
             "scope": [
                 "support.type.property-name.toml",
                 "meta.table.inline.toml",
-                "support.type.property-name.toml",
-                "meta.table.inline.toml"
+                "meta.entry.toml"
             ],
             "settings": {
                 "foreground": "#88B3D1"
@@ -1325,34 +1321,53 @@
             "settings": {
                 "foreground": "#f49e8b"
             }
-        },        // RegExp
+        },
+        // RegExp
         {
             "name": "Regex groups",
-            "scope": ["punctuation.parenthesis.non-capturing.begin.regexp", "punctuation.parenthesis.non-capturing.end.regexp", "punctuation.parenthesis.begin.regexp", "punctuation.parenthesis.end.regexp", "keyword.operator.lookahead.regexp", "constant.other.set.regexp"],
+            "scope": [
+                "punctuation.parenthesis.non-capturing.begin.regexp",
+                "punctuation.parenthesis.non-capturing.end.regexp",
+                "punctuation.parenthesis.begin.regexp",
+                "punctuation.parenthesis.end.regexp",
+                "keyword.operator.lookahead.regexp",
+                "constant.other.set.regexp"
+            ],
             "settings": {
-                "foreground": "#98999b",
+                "foreground": "#98999b"
             }
         },
         {
             "name": "Regex Operators",
-            "scope": ["keyword.operator.quantifier.regexp","support.other.match.begin.regexp", "support.other.match.end.regexp"],
+            "scope": [
+                "keyword.operator.quantifier.regexp",
+                "support.other.match.begin.regexp",
+                "support.other.match.end.regexp"
+            ],
             "settings": {
                 "foreground": "#e67574"
             }
         },
         {
             "name": "Regex literal chars",
-            "scope": ["constant.character.escape.regexp", "constant.character.set.regexp"],
+            "scope": [
+                "constant.character.escape.regexp",
+                "constant.character.set.regexp"
+            ],
             "settings": {
                 "foreground": "#90b1c9"
             }
         },
         {
             "name": "Regex special chars",
-            "scope": ["support.other.escape.special.regexp", "support.other.match.any.regexp"],
+            "scope": [
+                "support.other.escape.special.regexp",
+                "support.other.match.any.regexp"
+            ],
             "settings": {
                 "foreground": "#Dca054"
             }
         }
     ]
 }
+
