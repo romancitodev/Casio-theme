@@ -2,7 +2,7 @@
   "name": "casio",
   "displayName": "Casio Theme",
   "description": "A theme for people what doesn't conform with nord and want to get a better theme idk",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -18,16 +18,16 @@
     "themes": [
       {
         "label": "Casio Theme",
-          "uiTheme": "vs-dark",
-          "path": "./themes/Casio-color-theme.json"
-        },
-        {
-          "label": "Casio Theme Darker",
-          "uiTheme": "vs-dark",
-          "path": "./themes/Casio-Darker-theme.json"
-        },
-        {
-          "label": "Casio Theme Darker Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Casio-color-theme.json"
+      },
+      {
+        "label": "Casio Theme Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Casio-Darker-theme.json"
+      },
+      {
+        "label": "Casio Theme Darker Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/Casio-Darker-Flat-theme.json"
       },
