@@ -295,7 +295,7 @@
         {
             "scope": ["variable.other.metavariable.name.rust"],
             "settings": {
-                "foreground": "#d4d4d4",
+                "foreground": "#d4d4d4"
             }
         },
         // html
