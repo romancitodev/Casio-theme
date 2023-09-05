@@ -1367,6 +1367,132 @@
             "settings": {
                 "foreground": "#Dca054"
             }
+        },
+        //* C Colors 🤓
+        {
+            "name": "Punctuation",
+            "scope": [
+                "punctuation.section.block.end.bracket.curly.c",
+                "punctuation.section.block.begin.bracket.curly.c",
+                "punctuation.section.parens.begin.bracket.round.c",
+                "punctuation.section.parens.end.bracket.round.c",
+                "punctuation.section.parameters.begin.bracket.round.c",
+                "punctuation.section.parameters.end.bracket.round.c",
+                "punctuation.section.block.begin.bracket.curly.switch.c",
+                "punctuation.section.block.end.bracket.curly.switch.c",
+                "punctuation.section.parens.begin.bracket.round.conditional.switch.c",
+                "punctuation.section.parens.end.bracket.round.conditional.switch.c",
+                "punctuation.section.arguments.begin.bracket.round.c",
+                "punctuation.section.arguments.end.bracket.round.c",
+                "punctuation.definition.begin.bracket.square.c",
+                "punctuation.definition.end.bracket.square.c",
+                "punctuation.separator.colon.case.c",
+                "punctuation.separator.delimiter.c",
+                "punctuation.separator.dot-access.c",
+                "punctuation.separator.pointer-access.c",
+                "punctuation.terminator.statement.c",
+                "keyword.operator.assignment.c"
+            ],
+            "settings": {
+                "foreground": "#98999B"
+            }
+        },
+        {
+            "name": "Numeric literals, placeholders and preprocessor naming",
+            "scope": [
+                "constant.numeric.decimal.c",
+                "constant.numeric.hexadecimal.c",
+                "constant.numeric.octal.c",
+                "constant.numeric.binary.c",
+                "constant.other.placeholder.c",
+                "constant.numeric.decimal.point.c",
+                "entity.name.function.preprocessor.c"
+            ],
+            "settings": {
+                "foreground": "#F49E8B",
+            }
+        },
+        {
+            "name": "Numeric literal prefix/suffix",
+            "scope": [
+                "keyword.other.unit.suffix.integer.c",
+                "keyword.other.unit.suffix.floating-point.c",
+                "keyword.other.unit.hexadecimal.c",
+                "keyword.other.unit.octal.c",
+                "keyword.other.unit.binary.c"
+            ],
+            "settings": {
+                "foreground": "#90c0c9",
+            }
+        },
+        {
+            "name": "String literals",
+            "scope": [
+                "string.quoted.double.c",
+                "string.quoted.single.c",
+                "string.quoted.other.lt-gt.include.c"
+            ],
+            "settings": {
+                "foreground": "#4CBE9A"
+            }
+        },
+        {
+            "name": "Escape charactes, and non-primitive data types",
+            "scope": [
+                "entity.name.type.c",
+                "constant.character.escape.c",
+            ],
+            "settings": {
+                "foreground": "#A1BEC2"
+            }
+        },
+        {
+            "name": "Function",
+            "scope": [
+                "entity.name.function.c"
+            ],
+            "settings": {
+                "foreground": "#90B1C9",
+            }
+        },
+        {
+            "name": "Control, operators and primitive data types",
+            "scope": [
+                "storage.type.built-in.primitive.c",
+                "variable.parameter.probably.c", // Esto colorearía todos los nombres de parámetros pero algo me salvó xD
+                "keyword.operator.ternary.c",
+                "keyword.control.c",
+                "keyword.control.case.c",
+                "keyword.control.default.c",
+                "keyword.control.switch.c",
+                "keyword.operator.c",
+                "keyword.operator.bitwise.shift.c",
+                "keyword.operator.increment.c",
+                "keyword.operator.decrement.c",
+                "keyword.operator.comparison.c",
+                "keyword.operator.logical.c",
+                "keyword.operator.assignment.compound.bitwise.c",
+                "keyword.operator.assignment.compound.c",
+                "keyword.operator.sizeof.c"
+            ],
+            "settings": {
+                "foreground": "#E67574"
+            }
+        },
+        {
+            "name": "Storage, qualifiers and structures",
+            "scope": [
+                "source.c keyword.control.directive",
+                "storage.modifier.array.bracket.square",
+                "keyword.other.typedef.c",
+                "storage.modifier.c",
+                "storage.type.struct.c",
+                "storage.type.union.c",
+                "storage.type.enum.c"
+            ],
+            "settings": {
+                "foreground": "#88B3D1"
+            }
         }
     ]
 }
